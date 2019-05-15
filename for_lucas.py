@@ -10,7 +10,6 @@ import time
 import torch
 import numpy as np
 
-from aggregate import aggregate
 
 
 import examples.mnist as M
@@ -133,7 +132,7 @@ def evaluate():
             'iteration':model.iteration}
     with open("evaluate_%d.p" % model.iteration, "wb") as f:
         pickle.dump(ev, f)
-    aggregate()
+    #aggregate()
     #model.history.append(ev)
     return ev
 
