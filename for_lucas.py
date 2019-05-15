@@ -160,6 +160,6 @@ for j in range(5):
 #### To get conditional log probability ####
 for j in range(10):
     print("Conditional log_probs for test example", j)
-    M.imFromTensor(M.testdata[i, 0]).save("results/test-%d.png" % j)
+    M.imFromTensor(M.testdata[j, 0]).save("results/test-%d.png" % j)
     log_probs = model(i=np.arange(100), x=M.testdata[j:j+1].repeat(100, 1, 1, 1))
     print(log_probs)
