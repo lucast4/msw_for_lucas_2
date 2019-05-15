@@ -1,0 +1,11 @@
+#!/bin/bash
+hostname=`hostname`
+if [[ "$hostname" == *"slurm-control-0"* ]]; then
+  echo -p gpu --gres=gpu:1 -x vcuda-0,vcuda-1,vcuda-2,vcuda-3
+elif [ -d "/om" ]; then
+  #echo --qos=tenenbaum --gres=gpu:titan-x:1
+  echo --gres=gpu:titan-x:1
+else
+  echo Failed to get slurm params on $hostname
+  exit 1
+fi
