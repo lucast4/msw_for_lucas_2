@@ -80,7 +80,7 @@ def getClassification(n_way=100, n_samples=1000):
         others = list(range(trueclass)) + list(range(trueclass+1, len(M.testdata)))
         i_rearranged = [trueclass] + list(np.random.choice(others, size=n_way-1, replace=False))
         x_inp = [M.data[ii] for ii in i_rearranged]
-        scores = model.conditional(i_rearranged, x_inp, [x]*n_way)
+        scores = model.conditional(i_rearranged, x_inp, [x]*n_way) # LT: this is how well the models for (i, x_inp) can predict the pixels for [x]
         predictive += scores[0].mean().item() #.item() so we don't hold onto tensor for gradient information
         #print("scores:", scores)
         if not (scores>scores[0]).any():
@@ -138,7 +138,7 @@ def evaluate():
 
 
 
-model=torch.load("./model.p")
+model=torch.load("./model.p", map_location='cpu') #LT
 print("Loaded model.p")
 if args.cuda: model = model.cuda()
 
@@ -153,6 +153,7 @@ print("Making noisy")
 for j in range(5):
     print(j)
     cs, xs = model.sample(i=np.arange(100), x=M.data[:100], noise=0.25, sample_probs=True)
+    #cs, xs = model.sample(i = None, x=M.data[:100], noise=0.25, sample_probs=True)
     for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
         M.imFromTensor(x_sample[0]).save("results/" + str(i) + "-sample" + str(j) + ".png")
 
@@ -161,5 +162,7 @@ for j in range(5):
 for j in range(10):
     print("Conditional log_probs for test example", j)
     M.imFromTensor(M.testdata[j, 0]).save("results/test-%d.png" % j)
-    log_probs = model(i=np.arange(100), x=M.testdata[j:j+1].repeat(100, 1, 1, 1))
+    log_probs = model(i=np.arange(100), x=M.testdata[j:j+1].repeat(100, 1, 1, 1)) # calls model.forward
+    # score is sum of encoder and decoder likelihoods, and prior
+    # i indexes over mixture components: [item(100)][num(5)][string(90)]
     print(log_probs)

@@ -1,0 +1,1 @@
+Iteration: 0 | Train marginal: -214.524 | Test marginal: -209.114

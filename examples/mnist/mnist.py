@@ -19,6 +19,7 @@ from torch.distributions.multivariate_normal import MultivariateNormal
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--data', type=str, choices=['mnist', 'omniglot'], default='mnist')
+#parser.add_argument('--data', type=str, choices=['mnist', 'omniglot'], default='mnist')
 parser.add_argument('--nSupport', type=int, default=1)
 parser.add_argument('--px', choices=['nade', 'mlp', 'cnn', 'pixelcnn', 'linear', 'positive', 'ink', 'gaussian', 'lines', 'stamps', 'curve','curve2', 'turtle','turtlemax','arc','arcmax'], default='arcmax')
 parser.add_argument('--px_transform', choices=['same', 'different'], default='different')
@@ -42,10 +43,10 @@ cb=-3
 np.random.seed(0)
 if args.data=='mnist':
     nSupport = 1
-    data_numpy = np.fromfile("examples/mnist/data/binarized_mnist_train.amat", dtype=np.int16).reshape(-1,nSupport,28,28)
+    data_numpy = np.fromfile("./examples/mnist/data/binarized_mnist_train.amat", dtype=np.int16).reshape(-1,nSupport,28,28)
     np.random.shuffle(data_numpy)
-    testdata_numpy = np.fromfile("examples/mnist/data/binarized_mnist_test.amat", dtype=np.int16).reshape(-1,nSupport,28,28)
-    np.random.shuffle(testdata_numpy)
+    testdata_numpy = np.fromfile("./examples/mnist/data/binarized_mnist_test.amat", dtype=np.int16).reshape(-1,nSupport,28,28)
+    #np.random.shuffle(testdata_numpy)
     data = (torch.from_numpy(data_numpy)-48).byte()
     data_smooth = data.float()
     testdata = (torch.from_numpy(testdata_numpy)-48).byte()
@@ -109,10 +110,10 @@ if args.n is not None:
 testdata = testdata[:2000]
 print("got %d instances" % len(data))
 
-data = data.cuda()
-testdata = testdata.cuda()
+#data = data.cuda() #LT
+#testdata = testdata.cuda() #LT
 
-def t(x, tens):
+def t(x, tens): # converts to tensor.
     if torch.is_tensor(x):
         return x
     elif torch.is_tensor(x[0]):
@@ -1080,7 +1081,8 @@ Px = lambda: PxIID(_Px(), args.nSupport)
 def print_weights(model, n_idxs=8, offset=None):
     if offset is None:
         n_idxs = min(n_idxs, nContentLatent)
-        idxs = torch.randperm(nContentLatent).cuda()[:n_idxs]
+        #idxs = torch.randperm(nContentLatent).cuda()[:n_idxs] #LT
+        idxs = torch.randperm(nContentLatent)[:n_idxs]
     else:
         n_idxs = min(n_idxs, nContentLatent-offset)
         if args.pc == "bernoulli":

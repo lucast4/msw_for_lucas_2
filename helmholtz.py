@@ -127,10 +127,11 @@ class WSR(EncoderDecoder):
             i_has_component = self.nMixtureComponents[i]>component_idx 
             lp = logprobs[:, component_idx].masked_select(i_has_component)
             c = [self.mixtureComponents[ii][component_idx] for ii,has_component in zip(i, i_has_component) if has_component]
-            if len(c)>0:
+            # if len(c)>0:
+            if len(c)==len(D): # LT MODIFIED - so that only continues if all cases in D have and inferred c for this componet index (i.e mixture compnent)
                 likelihood = f(c)
                 scores[component_idx].masked_scatter_(i_has_component, lp + likelihood)
-        return scores.logsumexp(dim=0)
+        return scores.logsumexp(dim=0) # takes sum across all components (i.e. one sum for each datapoint). TODO: some case has -Inf score for some component...
 
     def getNovelPriorSamples(self, n=500):
         c, _ = self.prior([None]*n)

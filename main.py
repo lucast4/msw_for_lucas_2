@@ -59,6 +59,7 @@ parser.add_argument('--auto-batchsize', dest='auto_batchsize', action='store_con
 parser.add_argument('--load_pretrained', type=str, default=None)
 parser.add_argument('--evaluate_checkpoint', type=str, default=None) 
 parser.add_argument('--minutes', type=int, default=0)
+parser.add_argument('--newmodel', dest='newmodel', action='store_const', const=True, default=False) #LT
 args = parser.parse_args(M.unknown_args)
 
 
@@ -179,10 +180,11 @@ if args.evaluate_checkpoint is not None:
     print("Loaded %s" % args.evaluate_checkpoint)
 else:
     try:
-        model=torch.load("./model.p")
-        print("Loaded model.p")
-        if args.cuda: model = model.cuda()
-        if not hasattr(model, 'pretraining'): model.pretraining=False
+        if args.newmodel is False: # LT.
+            model=torch.load("./model.p")
+            print("Loaded model.p")
+            if args.cuda: model = model.cuda()
+            if not hasattr(model, 'pretraining'): model.pretraining=False
     except FileNotFoundError:
         pass 
 

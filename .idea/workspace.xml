@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="deb958c9-d048-4c77-a675-3c4de0776804" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/examples/mnist/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/mnist/mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_lucas.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_lucas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helmholtz.py" beforeDir="false" afterPath="$PROJECT_DIR$/helmholtz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/0-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/0-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/0-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/0-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/0-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/1-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/1-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/1-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/1-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/1-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/10-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/10-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/10-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/10-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/10-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/10-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/10-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/10-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/10-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/10-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/11-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/11-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/11-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/11-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/11-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/11-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/11-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/11-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/11-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/11-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/12-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/12-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/12-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/12-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/12-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/12-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/12-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/12-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/12-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/12-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/13-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/13-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/13-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/13-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/13-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/13-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/13-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/13-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/13-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/13-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/14-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/14-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/14-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/14-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/14-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/14-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/14-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/14-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/14-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/14-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/15-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/15-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/15-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/15-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/15-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/15-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/15-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/15-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/15-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/15-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/16-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/16-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/16-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/16-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/16-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/16-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/16-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/16-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/16-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/16-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/17-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/17-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/17-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/17-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/17-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/17-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/17-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/17-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/17-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/17-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/18-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/18-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/18-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/18-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/18-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/18-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/18-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/18-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/18-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/18-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/19-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/19-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/19-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/19-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/19-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/19-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/19-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/19-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/19-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/19-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/2-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/2-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/2-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/2-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/2-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/20-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/20-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/20-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/20-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/20-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/20-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/20-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/20-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/20-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/20-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/21-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/21-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/21-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/21-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/21-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/21-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/21-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/21-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/21-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/21-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/22-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/22-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/22-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/22-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/22-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/22-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/22-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/22-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/22-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/22-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/23-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/23-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/23-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/23-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/23-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/23-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/23-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/23-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/23-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/23-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/24-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/24-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/24-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/24-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/24-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/24-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/24-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/24-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/24-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/24-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/25-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/25-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/25-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/25-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/25-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/25-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/25-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/25-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/25-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/25-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/26-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/26-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/26-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/26-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/26-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/26-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/26-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/26-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/26-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/26-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/27-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/27-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/27-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/27-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/27-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/27-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/27-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/27-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/27-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/27-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/28-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/28-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/28-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/28-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/28-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/28-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/28-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/28-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/28-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/28-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/29-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/29-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/29-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/29-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/29-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/29-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/29-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/29-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/29-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/29-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/3-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/3-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/3-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/3-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/3-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/30-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/30-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/30-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/30-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/30-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/30-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/30-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/30-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/30-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/30-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/31-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/31-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/31-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/31-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/31-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/31-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/31-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/31-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/31-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/31-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/32-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/32-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/32-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/32-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/32-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/32-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/32-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/32-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/32-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/32-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/33-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/33-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/33-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/33-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/33-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/33-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/33-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/33-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/33-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/33-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/34-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/34-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/34-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/34-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/34-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/34-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/34-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/34-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/34-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/34-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/35-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/35-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/35-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/35-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/35-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/35-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/35-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/35-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/35-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/35-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/36-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/36-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/36-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/36-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/36-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/36-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/36-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/36-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/36-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/36-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/37-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/37-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/37-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/37-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/37-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/37-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/37-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/37-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/37-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/37-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/38-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/38-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/38-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/38-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/38-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/38-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/38-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/38-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/38-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/38-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/39-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/39-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/39-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/39-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/39-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/39-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/39-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/39-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/39-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/39-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/4-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/4-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/4-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/4-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/4-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/40-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/40-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/40-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/40-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/40-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/40-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/40-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/40-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/40-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/40-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/41-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/41-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/41-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/41-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/41-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/41-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/41-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/41-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/41-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/41-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/42-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/42-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/42-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/42-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/42-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/42-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/42-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/42-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/42-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/42-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/43-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/43-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/43-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/43-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/43-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/43-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/43-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/43-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/43-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/43-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/44-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/44-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/44-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/44-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/44-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/44-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/44-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/44-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/44-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/44-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/45-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/45-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/45-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/45-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/45-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/45-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/45-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/45-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/45-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/45-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/46-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/46-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/46-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/46-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/46-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/46-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/46-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/46-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/46-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/46-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/47-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/47-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/47-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/47-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/47-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/47-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/47-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/47-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/47-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/47-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/48-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/48-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/48-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/48-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/48-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/48-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/48-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/48-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/48-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/48-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/49-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/49-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/49-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/49-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/49-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/49-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/49-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/49-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/49-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/49-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/5-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/5-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/5-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/5-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/5-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/50-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/50-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/50-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/50-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/50-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/50-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/50-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/50-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/50-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/50-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/51-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/51-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/51-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/51-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/51-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/52-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/52-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/52-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/52-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/52-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/53-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/53-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/53-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/53-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/53-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/54-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/54-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/54-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/54-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/54-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/55-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/55-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/55-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/55-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/55-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/56-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/56-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/56-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/56-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/56-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/57-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/57-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/57-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/57-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/57-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/58-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/58-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/58-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/58-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/58-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/59-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/59-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/59-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/59-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/59-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/6-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/6-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/6-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/6-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/6-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/60-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/60-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/60-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/60-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/60-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/61-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/61-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/61-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/61-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/61-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/62-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/62-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/62-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/62-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/62-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/63-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/63-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/63-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/63-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/63-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/64-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/64-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/64-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/64-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/64-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/65-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/65-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/65-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/65-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/65-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/66-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/66-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/66-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/66-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/66-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/67-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/67-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/67-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/67-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/67-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/68-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/68-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/68-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/68-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/68-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/69-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/69-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/69-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/69-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/69-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/7-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/7-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/7-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/7-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/7-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/70-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/70-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/70-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/70-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/70-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/71-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/71-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/71-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/71-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/71-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/72-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/72-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/72-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/72-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/72-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/73-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/73-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/73-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/73-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/73-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/74-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/74-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/74-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/74-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/74-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/75-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/75-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/75-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/75-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/75-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/76-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/76-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/76-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/76-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/76-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/77-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/77-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/77-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/77-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/77-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/78-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/78-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/78-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/78-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/78-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/79-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/79-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/79-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/79-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/79-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/8-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/8-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/8-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/8-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/8-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/80-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/80-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/80-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/80-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/80-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/81-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/81-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/81-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/81-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/81-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/82-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/82-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/82-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/82-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/82-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/83-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/83-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/83-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/83-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/83-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/84-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/84-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/84-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/84-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/84-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/85-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/85-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/85-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/85-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/85-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/86-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/86-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/86-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/86-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/86-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/87-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/87-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/87-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/87-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/87-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/88-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/88-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/88-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/88-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/88-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/89-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/89-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/89-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/89-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/89-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9-sample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/9-sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9-sample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/9-sample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9-sample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/9-sample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9-sample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/9-sample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9-sample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/9-sample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/90-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/90-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/90-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/90-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/90-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/91-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/91-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/91-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/91-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/91-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/92-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/92-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/92-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/92-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/92-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/93-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/93-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/93-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/93-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/93-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/94-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/94-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/94-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/94-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/94-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/95-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/95-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/95-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/95-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/95-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/96-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/96-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/96-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/96-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/96-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/97-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/97-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/97-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/97-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/97-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/98-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/98-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/98-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/98-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/98-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/99-sample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/99-sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/99-sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/99-sample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/99-sample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/test-9.png" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2138293791">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="1707" />
+          <entry key="py" value="1008" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2715" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/for_lucas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="86" column="20" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helmholtz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/mnist/mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="566" column="26" selection-start-line="557" selection-start-column="9" selection-end-line="566" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/envs/babyglot/lib/python3.6/site-packages/torch/nn/modules/module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="476" selection-start-line="476" selection-end-line="476" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3886">
+              <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/envs/babyglot/lib/python3.6/site-packages/torch/distributions/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lt_classify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+              <folding>
+                <element signature="e#20#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__cal</find>
+      <find>call</find>
+      <find>makeUpdates</find>
+      <find>exampl</find>
+      <find>batch</find>
+      <find>getBat</find>
+      <find>data</find>
+      <find>testd</find>
+      <find>score</find>
+      <find>aggregate</find>
+      <find>save</find>
+      <find>encoder</find>
+      <find>noise</find>
+      <find>makeUp</find>
+      <find>DECOD</find>
+      <find>decoder</find>
+      <find>condition</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/.idea/lt_classify.py" />
+        <option value="$PROJECT_DIR$/examples/mnist/mnist.py" />
+        <option value="$PROJECT_DIR$/helmholtz.py" />
+        <option value="$PROJECT_DIR$/for_lucas.py" />
+        <option value="$PROJECT_DIR$/lt_classify.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mws_for_lucas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mws_for_lucas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mws_for_lucas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mws_for_lucas" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mws_for_lucas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mws_for_lucas" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="mnist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mws_for_lucas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mws_for_lucas" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="mnist" type="462c0819:PsiDirectoryNode" />
+              <item name="mnist.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="mws_for_lucas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.lt_classify (1)">
+    <configuration name="for_lucas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mws_for_lucas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for_lucas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lt_classify (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mws_for_lucas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lt_classify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lt_classify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mws_for_lucas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/lt_classify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mws_for_lucas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.for_lucas" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.lt_classify" />
+      <item itemvalue="Python.lt_classify (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.lt_classify (1)" />
+        <item itemvalue="Python.lt_classify" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.for_lucas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deb958c9-d048-4c77-a675-3c4de0776804" name="Default Changelist" comment="" />
+      <created>1557947988596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557947988596</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17054264" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290653" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33034572" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290653" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290653" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/helmholtz.py</url>
+          <line>357</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>a = np.where(M.testlabels == charSamp)
+idx_sample, idx_testmatch = np.random.choice(a[0], size=2, replace=False)
+# get the N-1 test that do not match the sample
+a = np.where(M.testlabels != charSamp)
+idx_testnonmatch = np.random.choice(a[0], size=Nway - 1, replace=False)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for j in range(10):
+    print(&quot;Conditional log_probs for test example&quot;, j)
+    M.imFromTensor(M.testdata[j, 0]).save(&quot;results/test-%d.png&quot; % j)
+#    log_probs = model(i=np.arange(100), x=M.testdata[j:j+1].repeat(100, 1, 1, 1)) # calls model.forward
+    log_probs = model(i=np.arange(100), x=M.data[j:j+1].repeat(100, 1, 1, 1)) # calls model.forward
+    # score is sum of encoder and decoder likelihoods, and prior
+    # i indexes over mixture components: [item(100)][num(5)][string(90)]
+    print(log_probs)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Making originals&quot;)
+for i, x_data in enumerate(M.data[:100]):
+    M.imFromTensor(x_data[0]).save(&quot;results/%d-original.png&quot; % i)
+print(&quot;Making noisy&quot;)
+for j in range(5):
+    print(j)
+    cs, xs = model.sample(i=np.arange(51), x=M.data[:50], noise=0.25, sample_probs=True)
+    #cs, xs = model.sample(i = None, x=M.data[:100], noise=0.25, sample_probs=True)
+    for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
+        M.imFromTensor(x_sample[0]).save(&quot;results/&quot; + str(i) + &quot;-sample&quot; + str(j) + &quot;.png&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Making originals&quot;)
+for i, x_data in enumerate(M.data[:100]):
+    M.imFromTensor(x_data[0]).save(&quot;results/%d-original.png&quot; % i)
+print(&quot;Making noisy&quot;)
+for j in range(5):
+    print(j)
+    cs, xs = model.sample(i=np.arange(1000), x=M.data[:100], noise=0.25, sample_probs=True)
+    #cs, xs = model.sample(i = None, x=M.data[:100], noise=0.25, sample_probs=True)
+    for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
+        M.imFromTensor(x_sample[0]).save(&quot;results/&quot; + str(i) + &quot;-sample&quot; + str(j) + &quot;.png&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Making originals&quot;)
+for i, x_data in enumerate(M.data[:100]):
+    M.imFromTensor(x_data[0]).save(&quot;results/%d-original.png&quot; % i)
+print(&quot;Making noisy&quot;)
+for j in range(5):
+    print(j)
+    cs, xs = model.sample(i=None, x=M.data[:100], noise=0.25, sample_probs=True)
+    #cs, xs = model.sample(i = None, x=M.data[:100], noise=0.25, sample_probs=True)
+    for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
+        M.imFromTensor(x_sample[0]).save(&quot;results/&quot; + str(i) + &quot;-sample&quot; + str(j) + &quot;.png&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Making originals&quot;)
+for i, x_data in enumerate(M.data[:100]):
+    M.imFromTensor(x_data[0]).save(&quot;results/%d-original.png&quot; % i)
+print(&quot;Making noisy&quot;)
+for j in range(5):
+    print(j)
+    cs, xs = model.sample(i=np.arange(100), x=M.data[:100], noise=0.25, sample_probs=True)
+    #cs, xs = model.sample(i = None, x=M.data[:100], noise=0.25, sample_probs=True)
+    for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
+        M.imFromTensor(x_sample[0]).save(&quot;results/&quot; + str(i) + &quot;-sample&quot; + str(j) + &quot;.png&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Making noisy&quot;)
+for j in range(5):
+    print(j)
+    #cs, xs = model.sample(i=np.arange(100), x=M.data[:100], noise=0.25, sample_probs=True)
+    cs, xs = model.sample(i = np.arange(100), x=M.data[:100], noise=0.25, sample_probs=True)
+    for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
+        M.imFromTensor(x_sample[0]).save(&quot;results/&quot; + str(i) + &quot;-sample&quot; + str(j) + &quot;.png&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Making noisy&quot;)
+for j in range(5):
+    print(j)
+    #cs, xs = model.sample(i=np.arange(100), x=M.data[:100], noise=0.25, sample_probs=True)
+    cs, xs = model.sample(i = np.arange(100), x=M.data[:2], noise=0.25, sample_probs=True)
+    for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
+        M.imFromTensor(x_sample[0]).save(&quot;results/&quot; + str(i) + &quot;-sample&quot; + str(j) + &quot;.png&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Making noisy&quot;)
+for j in range(5):
+    print(j)
+    #cs, xs = model.sample(i=np.arange(100), x=M.data[:100], noise=0.25, sample_probs=True)
+    cs, xs = model.sample(i = None, x=M.data[:100], noise=0.25, sample_probs=True)
+    for i, (x_data, x_sample) in enumerate(zip(M.data, xs)):
+        M.imFromTensor(x_sample[0]).save(&quot;results/&quot; + str(i) + &quot;-sample&quot; + str(j) + &quot;.png&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples/mnist/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/babyglot/lib/python3.6/site-packages/aggregate/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/lt_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#20#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/babyglot/lib/python3.6/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="476" selection-start-line="476" selection-end-line="476" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3886">
+          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/mnist/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="566" column="26" selection-start-line="557" selection-start-column="9" selection-end-line="566" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lt_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+          <folding>
+            <element signature="e#20#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/babyglot/lib/python3.6/site-packages/torch/distributions/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helmholtz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_lucas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
