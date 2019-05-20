@@ -151,14 +151,14 @@ def getClassScore(charSamp, Nway=10, frontierSize=5, nUpdates=10, plotON=False):
 
 
 ## =====================================================
-Ntrials = 1000
+Ntrials = 10000
 import pickle
 charall = np.random.randint(0, 10, Ntrials)
 
 saveInterval = 20 # save mod this number trials
 
 # for w, f, u in zip([5, 5, 10, 10, 20, 20],[5, 10, 5, 10, 5, 10],[20, 20, 20, 20, 20, 20]):
-for w, f, u in zip([20, 20],[5, 10],[20, 20]):
+for w, f, u in zip([20, 20, 20, 20],[1, 5, 10, 15],[30, 30, 30, 30]):
     scores_all = []
     scores_sampmodel_all = []
     scores_sum_all = []
