@@ -11,7 +11,12 @@ from MCMC import makeUpdateMCMC
 
 ## ******************************************************
 ## ******************************************************
-model=torch.load("./model.p", map_location='cpu') #LT
+parser = argparse.ArgumentParser()
+parser.add_argument('--modelpath', type=str, default='./model.p')
+args = parser.parse_args()
+ 
+model=torch.load(args.modelpath, map_location='cpu')
+#model=torch.load("./model.p", map_location='cpu') #LT
 print("Loaded model.p")
 
 
