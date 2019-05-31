@@ -9,6 +9,8 @@ from torch.nn import Parameter
 import torch.nn.functional as F
 from torch.distributions.categorical import Categorical
 
+from MCMC import flipOnOff
+
 def nograd(x):
     return x.data if torch.is_tensor(x) else x
 
@@ -115,13 +117,13 @@ class WSR(EncoderDecoder):
         x, _ = self.decoder(i, c, **decoder_args)
         return c, x
 
-    def conditional(self, i, D, x, n_samples=None, f=None):
+    def conditional(self, i, D, x, n_samples=None, f=None, noise=0):
         if i is None : return super().conditional(i, D, x, f=f)
         if n_samples is not None: return super().conditional(i, D, x, n_samples, f)
-        if f is None: f = lambda c: self.decoder(i, c, x)[1]
+        if f is None: f = lambda c: self.decoder(i, c, x, noise=noise)[1]
         #print("Running the real conditional!")
         self.ensure_nonempty(i, D)
-        logprobs = F.log_softmax(self.mixtureWeights[i], dim=1)
+        logprobs = F.log_softmax(self.mixtureWeights[i], dim=1) # makes the max 0, rest are neg from that.
         scores = self.t.new_full([self.frontierSize, len(i)], float("-inf"))
         for component_idx in range(self.frontierSize):
             i_has_component = self.nMixtureComponents[i]>component_idx 
@@ -156,7 +158,7 @@ class WSR(EncoderDecoder):
                     task_update_data[ii]=xx
             
         for iUpdate in range(nUpdates):
-            c, _ = self.encoder(i, x) if self.encoder is not None else self.prior(i)
+            c, _ = self.encoder(i, x) if self.encoder is not None else self.prior(i)        
             _, priorscore = self.prior(i, c)
             _, likelihood = self.decoder(i, c, x)
             score = (priorscore + likelihood).tolist()

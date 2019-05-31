@@ -194,6 +194,7 @@ class NADE(nn.Module):
         else: assert batch_size is not None and y is None
 
         xs = []
+        hs = []
         #x = self.t.new_zeros(batch_size, self.length)
 
         if self.conditional:
@@ -203,6 +204,7 @@ class NADE(nn.Module):
             h_inp = self.a.data[None, :].repeat(batch_size, 1).clone()
 
         score = self.t.new_zeros(batch_size)
+        
         for i in range(self.length):
             h = torch.tanh(h_inp) # batch * nHidden
             if self.conditional:
@@ -219,10 +221,13 @@ class NADE(nn.Module):
             #score = score + Bernoulli(p).log_prob(x[:, i])
             #h_inp = h_inp + x[:, i, None] * self.W.data[None, i, :]
             xs.append(Bernoulli(p).sample())
+            hs.append(h)
             score = score + Bernoulli(p).log_prob(xs[i])
             h_inp = h_inp + xs[i][:, None] * self.W.data[None, i, :]
 
         x = torch.stack(xs, 1)
+        hs = torch.stack(hs,1)
+        
         return x, score
 
 class RcTransform(nn.Module):
@@ -764,7 +769,7 @@ elif args.px in ["turtle", 'turtlemax', 'arc', 'arcmax']:
             if args.px=="turtle" or args.px=="arc":
                 logits = logits.sum(dim=1)
             elif args.px=="turtlemax" or args.px=="arcmax":
-                logits = logits.max(dim=1)[0]
+                logits = logits.max(dim=1)[0] # max scaling over all strokes images (i.e final image)
             logits = F.softplus(self._v_scale) * logits 
 
             if args.nSpatialLatent>0:

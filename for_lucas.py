@@ -40,7 +40,7 @@ parser.add_argument('--classification_samples', type=int, default=100)
 parser.add_argument('--elbo_samples', type=int, default=100)
 # General
 parser.add_argument('--no-save', dest='no_save', action='store_const', const=True, default=False)
-parser.add_argument('--no-cuda', dest='cuda', action='store_const', const=False, default=True)
+parser.add_argument('--no-cuda', dest='cuda', action='store_const', const=False, default=False)
 parser.add_argument('--iterations', type=int, default=10000)
 parser.add_argument('--pretrain', type=int, default=0)
 parser.add_argument('--auto-batchsize', dest='auto_batchsize', action='store_const', const=True, default=False)
