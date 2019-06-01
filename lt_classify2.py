@@ -1,8 +1,3 @@
-import os
-import os.path
-os.system("om-nodeinfo")
-
-
 import torch
 import matplotlib.pyplot as plt
 import examples.mnist as M
@@ -111,7 +106,7 @@ def getIdx(charSamp, M, Nway=20, testOrTrain='Test'):
 ## ===== ZEROTH, extract indices in test set that you want to work with
 def getClassScore(charSamp, Nway=10, frontierSize=5, nUpdates=10, plotON=False, 
                   noise=0, nIterNoise=0, testOrTrain='Test', redoUpdate=True, 
-                  model=model, doMCMC=False, MCMC_strokesToFlip=range(1,7)):
+                  doMCMC=False, MCMC_strokesToFlip=range(1,7)):
 # charSamp = 3 # which digit to use for the sample?
 # Nway=15
 # frontierSize = 5; how many components to remember
@@ -156,10 +151,10 @@ def getClassScore(charSamp, Nway=10, frontierSize=5, nUpdates=10, plotON=False,
             print(model.mixtureWeights[idx_all[0]])
         
         ## ===== DO MCMC?
-        if doMCMC is True:
-            for jj in MCMC_strokesToFlip:
-                print('doing mcmc(flipping) for strokenum %s' %jj)
-                model = makeUpdateMCMC(model, i=idx_all, x=x_all, strokeNum=jj)
+#        if doMCMC is True:
+ #           for jj in MCMC_strokesToFlip:
+  #              print('doing mcmc(flipping) for strokenum %s' %jj)
+   #             model = makeUpdateMCMC(model, i=idx_all, x=x_all, strokeNum=jj)
             
     else:
         # == then this must be on Training set for the indices to be correct
@@ -208,7 +203,7 @@ def getClassScore(charSamp, Nway=10, frontierSize=5, nUpdates=10, plotON=False,
         # print(predictive/total) # mean score
     print(scores)
     print(idx_all)
-    return model, scores, scores_sampmodel, idx_all, scores_sum
+    return scores, scores_sampmodel, idx_all, scores_sum
 
 
 
@@ -253,11 +248,11 @@ for noise in [0.25]:
             for i, cc in enumerate(charall):
                 print(i)
                 cc = np.array(cc)
-                model, scores, scores_sampmodel, idx, scores_sum = \
+                scores, scores_sampmodel, idx, scores_sum = \
                 getClassScore(charSamp=cc, Nway=w, frontierSize=f, nUpdates=u, plotON=False, 
                               noise = noise, nIterNoise=nIterNoise, testOrTrain=testOrTrain, 
-                              redoUpdate=redoUpdate, model=model, doMCMC=doMCMC, 
-                              MCMC_strokesToFlip=MCMC_strokesToFlip)
+                              redoUpdate=redoUpdate, doMCMC=doMCMC)
+                              
         
                 scores_all.append(scores)
                 scores_sampmodel_all.append(scores_sampmodel)
